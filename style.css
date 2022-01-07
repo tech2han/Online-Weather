@@ -18,7 +18,6 @@ body{
 }
 .h-l{
     float: right;
-    padding: 0ch;
 }
 .batt{
     width: 20px;
@@ -149,7 +148,7 @@ a{
 }
 .c-b-b-l span:last-child{
     font-size: 40px;
-    margin: -6px 0;
+    margin: -10px 0;
     position: relative;
 }
 .c-mid{
