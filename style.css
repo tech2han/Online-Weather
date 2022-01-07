@@ -812,3 +812,23 @@ a{
 .sec3-m2-m,.sec3-m3-m{
     margin-left: 10px;
 } */
+
+
+iframe{
+    animation:if 1s ;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+@keyframes if {
+    90%,0%{
+        width: auto;
+        height: auto;
+        opacity: 3;
+    }
+    100%{
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
+}
